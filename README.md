@@ -43,7 +43,7 @@ Then edit `.env` and fill in your values:
 GITHUB_TOKEN=your_github_pat_here
 OWNER=Your_Github_Username
 REPO=your-repo-name
-LOG_DIR=_dev/github_action_logs
+LOG_DIR=logs
 ```
 
 **Note**: The script uses a built-in `.env` file parser (no external dependencies required). It will automatically load configuration from the `.env` file, or you can use environment variables directly.
